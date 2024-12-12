@@ -10,5 +10,6 @@ public class BaseTest {
     public void beforeMethod(Method m){
         System.out.println("STARTING TEST: " + m.getName());
         System.out.println("THREAD ID: " + Thread.currentThread().getId());
+        System.out.println("Hello World");
     }
 }
